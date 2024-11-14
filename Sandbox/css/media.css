@@ -1,0 +1,130 @@
+
+/* XL */
+
+@media(max-width:1399px){
+
+	.container{
+		max-width:1140px;
+	}
+	.flex-direction{
+		flex-direction:column;
+	}
+	header nav{
+		padding:0 130px;
+		position:absolute;
+		top:100%;
+		left:0;
+		right:0;
+		display:none;
+	}
+	.review{
+		display:none;
+	}
+	.navigation{
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.toggal-menu{
+		display:block;
+	}
+	.services-title h2 {
+		margin:0px 120px 50px;
+	}
+	.pricing{
+		padding:0;
+	}
+	.pricing-title h2{
+		padding:0;
+	}
+}
+
+/* LG */
+
+@media(max-width:1199px){
+	.w-lg-1{
+		width:100%;
+	}
+	.w-lg-2{
+		width:50%;
+	}
+	.w-lg-3{
+		width:33.33%;
+	}
+	.container{
+		max-width:960px;
+	}
+	.clients-contant{
+		margin:0;
+		padding-top:50px;
+	}
+	.services-title h2 {
+		margin:0px 80px 50px;
+	}
+	.solution-content{
+		padding-left:50px;
+	}
+	.solution-content, .solution-img{
+		padding-top:100px;
+	}
+	.solution-img{
+		margin:0;
+	}
+	.pricing{
+		height:2500px;
+	}
+	.team-title h2{
+		padding:0;
+	}
+}
+
+/* MD */
+
+@media(max-width:991px){
+	.w-md-1{
+		width:100%;
+	}
+	.w-md-3{
+		width:33.33%;
+	}
+	.w-md-2{
+		width:50%;
+	}
+	.container{
+		max-width:720px;
+	}
+	.banner-img{
+		display:none;
+	}
+	.services-title h2 {
+		margin:0;
+		padding:0;
+	}
+	.valuation-inner{
+		display:none;
+	}
+}
+
+/* XM */
+
+@media(max-width:767px){
+	.w-xm-1{
+		width:100%;
+	}
+	.w-xm-2{
+		width:50%;
+	}
+	.container{
+		max-width:540px;
+	}
+}
+
+/* XS */
+
+@media(max-width:575px){
+	.w-xs-1{
+		width:100%;
+	}
+	.container{
+		max-width:100%;
+	}
+}

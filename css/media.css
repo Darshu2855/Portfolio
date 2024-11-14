@@ -1,0 +1,40 @@
+
+/* xs */
+
+@media(min-width:576px){
+	.container{
+		min-width:540;
+	}
+}
+
+/* md */
+
+@media(min-width:678px){
+	.container{
+		min-width:720px;
+	}
+}
+
+/* lg */
+
+@media(min-width:992px){
+	.container{
+		min-width:960px;
+	}
+}
+
+/* xl */
+
+@media(min-width:1200px){
+	.container{
+		min-width:1140px;
+	}
+}
+
+/* xxl */
+
+@media(min-width:1400px){
+	.container{
+		min-width:1320px;
+	}
+}

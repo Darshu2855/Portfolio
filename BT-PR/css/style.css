@@ -1,0 +1,211 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+:root{
+     --theme-dark-blue:#06BBCC;
+     --theme-light-blue:#F0FBFC;
+}
+body{
+     font-family: 'Heebo';
+}
+.slider .carousel-control-prev:hover, .slider .carousel-control-next:hover{
+     background-color: var(--theme-dark-blue);
+     transition: 0.8s;
+}
+.services-item:hover, .services-item:hover i{
+     transition: 0.5s;
+     color: var(--theme-light-blue);
+}
+.Categories-title h6::before, .Courses-title h6::before, .Instructors-title h6::before, .testimonial-title h6::before{
+     position: absolute;
+     content: "";
+     width: 200px;
+     height: 2px;
+     top: 4px;
+     left: 50%;
+     transform: translateX(-50%);
+     background: var(--theme-dark-blue);
+     z-index: -1;
+}
+
+.Categories-title h6::after, .Courses-title h6::after, .Instructors-title h6::after, .testimonial-title h6::after{
+     position: absolute;
+     content: "";
+     width: 240px;
+     height: 2px;
+     bottom: 4px;
+     left: 50%;
+     transform: translateX(-50%);
+     background: var(--theme-dark-blue);
+     z-index: -1;
+}
+.about-title h6, .Categories-title h6, .Categories-inner p, .Courses-title h6, .courses-item i, .Instructors-title h6, .testimonial-title h6{
+     color: var(--theme-dark-blue);
+}
+.Courses .courses-item, .Instructors .Instructors-item, .Instructors  .Instructors-content, .testimonial .testimonial-content{
+     background-color: var(--theme-light-blue);
+}
+
+/* HEADER */
+
+header .logo{
+     color:var(--theme-dark-blue);
+}
+header nav li:first-child a{
+     color:var(--theme-dark-blue);
+}
+header nav li:last-child a{
+     background-color:var(--theme-dark-blue);
+}
+
+/* SLIDER */
+
+.slider .carousel-item{
+     background: url(../image/slider-1.jpg), rgba(24, 29, 56, 0.7);
+     height: 900px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: darken;
+}
+.slider .carousel-item:last-child{
+     background: url(../image/slider-2.jpg), rgba(24, 29, 56, 0.7);
+     height: 900px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: darken;
+}
+.slider .carousel-item h5{
+     color: var(--theme-dark-blue);
+}
+.carousel-item h5 + h1 + p + a{
+     background-color: var(--theme-dark-blue);
+}
+.slider .carousel-control-prev{
+     width: 45px;
+     height: 45px;
+     left: inherit;
+     right: 10%!important;
+     top: 42%;
+}
+.slider .carousel-control-next {
+     width: 45px;
+     height: 45px;
+     top: inherit;
+     right: 10%;
+     bottom: 42%;
+}
+
+/* SERVICES */
+
+.services{
+     padding: 100px 0;
+}
+.services-item i{
+     color: var(--theme-dark-blue);
+}
+.services-item{
+     background-color: var(--theme-light-blue);
+}
+.services-item:hover{
+     margin-top: -10px;
+     background-color: var(--theme-dark-blue);
+}
+
+/* ABOUT */
+
+.about-image img{
+     height: 450px;
+     position: absolute;
+     object-fit: cover;
+}
+.about-title h6::before {
+     position: absolute;
+     content: "";
+     width: 80px;
+     height: 2px;
+     top: 4px;
+     right: -40px;
+     background: var(--theme-dark-blue);
+     z-index: -1;
+}
+.about-title h6::after {
+     position: absolute;
+     content: "";
+     width: 120px;
+     height: 2px;
+     bottom: 4px;
+     right: -60px;
+     background: var(--theme-dark-blue);
+     z-index: -1;
+}
+.about-title a{
+     background-color: var(--theme-dark-blue);
+}
+.about-title li i{
+     color: var(--theme-dark-blue);
+}
+
+/* COURSES */
+
+.courses-inner a{
+     background-color: var(--theme-dark-blue);
+}
+.courses-inner .courses-content a{
+     border-radius: 30px 0 0 30px;
+}
+.courses-inner .courses-content a + a{
+     border-radius: 0 30px 30px 0;
+}
+
+/* INSTRUCTORS */
+
+.Instructors-item a{
+     background-color: var(--theme-dark-blue);
+}
+.Instructors-inner{
+     margin-top: -23px;
+}
+.testimonial-item::before {
+     position: absolute;
+     content: "";
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 250px;
+     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+     z-index: 1;
+}
+.testimonial-item::after {
+     position: absolute;
+     content: "";
+     top: 0;
+     right: 0;
+     height: 100%;
+     width: 250px;
+     background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+     z-index: 1;
+}
+.testimonial-text{
+     background-color: var(--theme-dark-blue);
+}
+
+
+
+/* FOOTER */
+
+.footer{
+     background-color: #181d38;
+}
+
+.footer-item button{
+     background-color: var(--theme-dark-blue);
+     top: 3px;
+     right: 3px;
+}
+
+.footer .footer-inner .col-12:nth-child(2) .footer-item ul:last-child i:hover{ 
+     background-color:white;
+     color: var(--theme-dark-blue);
+}
